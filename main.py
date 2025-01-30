@@ -19,7 +19,7 @@ class Item(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Bienvenido a Emax"}
+    return {"message": "Bienvenido a Emanuel"}
 
 @app.post("/items/")
 def create_item(item: Item):
